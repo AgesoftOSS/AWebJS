@@ -1,7 +1,7 @@
 # Awebjs
-https://img.shields.io/badge/Version%3A-0.1-blue
-https://img.shields.io/badge/License-MIT-green
-https://img.shields.io/badge/Latest%20Releace-none-brightgreen
+[](https://img.shields.io/badge/Version%3A-0.1-blue)
+[](https://img.shields.io/badge/License-MIT-green)
+[](https://img.shields.io/badge/Latest%20Releace-none-brightgreen)
 
 AwebJS is a new technology for making sites and UIs using javascript
 
