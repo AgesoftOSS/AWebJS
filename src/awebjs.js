@@ -8,13 +8,25 @@ All Rights Reserved.
 */
 
 import { countgrapth } from "./comps/countgraph.js"
-import AWebJSDOM from "./awebjs-dom/awebjsdom.js";
 
 export default class AWebJS {
     constructor(){}
 
-    AwebJSDOM = new AWebJSDOM();
-
-     DebugLOG(str) { console.info("AWebJS Debug: " + str) }
+    /**
+     * 
+     * @param {number} speed 
+     * @param {string} elem 
+     */
      numberGraph(speed, elem) { countgrapth(speed, elem) }
+}
+
+class AWebJSError extends Error {
+    /**
+     * 
+     * @param {string} msg 
+     */
+    constructor(msg){
+        super(msg);
+        this.name = "AwebJS-Error"
+    }
 }

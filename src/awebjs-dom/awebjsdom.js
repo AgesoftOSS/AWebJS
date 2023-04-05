@@ -13,7 +13,27 @@ import { Visibility } from "./comps/visibility.js"
 
 export default class AWebJSDOM {
     constructor(){}
+    /**
+     * 
+     * @param {HTMLElement} elem 
+     * @param {string} str 
+     * @param {string} id 
+     * @param {string} classname 
+     */
     render(elem, str, id, classname) { Render(elem, str, id, classname) }
+
+    /**
+     * 
+     * @param {HTMLElement} elem 
+     * @param {string} content 
+     * @param {string} id 
+     * @param {string} classname 
+     */
     renderElement(elem, content, id, classname) { RenderElement(elem, content, id, classname) }
+
+    /**
+     * 
+     * @param {HTMLElement} elem 
+     */
     visibility(elem) { Visibility(elem) }
 }

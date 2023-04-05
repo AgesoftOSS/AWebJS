@@ -6,13 +6,11 @@ This component is provided by Entertainmasters
 All Rights Reserved.
 */
 
-import { awebJSWarn } from "./awebjserr.js";
-
 export function countgrapth(cspeed, elem) {
 const counters = document.querySelectorAll(elem);
 const speed = cspeed;
 
-counters.forEach(counter => {
+counters?.forEach(counter => {
     const updateCount = () => {
         const target = +counter.getAttribute('data-target');
         const count = +counter.innerText;
