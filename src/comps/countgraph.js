@@ -6,7 +6,7 @@ This component is provided by Entertainmasters
 All Rights Reserved.
 */
 
-export function countgrapth(cspeed, elem) {
+function countgrapth(cspeed, elem) {
 const counters = document.querySelectorAll(elem);
 const speed = cspeed;
 
@@ -27,3 +27,5 @@ counters?.forEach(counter => {
         updateCount()
 });
 }
+
+module.exports = { countgrapth };

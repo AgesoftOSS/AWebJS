@@ -10,7 +10,7 @@
  * Directions...
  * *no explaining required.*
  */
-export class Directions {
+class Directions {
     static CENTER = 'center'
     static LEFT = 'left'
     static RIGHT = 'right'
@@ -49,7 +49,7 @@ const CLSettings = {
 })
  * ```
  */
-export default class CSSLoader {
+class CSSLoader {
     constructor(Element){
         this.#SelectedElement = Element;
     }
@@ -110,3 +110,5 @@ export default class CSSLoader {
         }
     }
 }
+
+module.exports = { CSSLoader, Directions };

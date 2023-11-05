@@ -1,0 +1,29 @@
+{
+  "name": "awebjs",
+  "version": "0.2.1",
+  "description": "Javascript Framework for creating sites and UI easily.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgesoftOSS/AWebJS.git"
+  },
+  "keywords": [
+    "javascript",
+    "framework",
+    "js",
+    "nodejs",
+    "webdev"
+  ],
+  "author": "Agesoft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgesoftOSS/AWebJS/issues"
+  },
+  "homepage": "https://github.com/AgesoftOSS/AWebJS#readme"
+}

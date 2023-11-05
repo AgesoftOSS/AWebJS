@@ -5,7 +5,7 @@ Copyright (c) Copy 2021
 All Rights Reserved.
 */
 
-export function Visibility(elem)
+const Visibility = (elem) =>
 {
     const element = document.getElementById(elem)
     if (element.style.display === "none") {
@@ -14,3 +14,5 @@ export function Visibility(elem)
         element.style.display = "none";
       }
 }
+
+module.exports = { Visibility }

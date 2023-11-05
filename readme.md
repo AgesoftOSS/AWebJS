@@ -1,4 +1,4 @@
-# Awebjs
+# AWebJS
 
 AwebJS is a javascript technology for making sites and UIs using javascript
 
@@ -6,33 +6,14 @@ AwebJS is a javascript technology for making sites and UIs using javascript
 
 Awebjs is constructed to be easy to use
 
-first import your main javascript file *(Note: `type="module"` Is required else it throws a error)*
-
-```html
-<script type="module" src="index.js"></script>
-```
-on your script import the AWebJS class:
-```js
-import AWebJS from './awebjs/src/awebjs.js'
-const AwebJS = new AWebJS()
-```
-and your ready to use **AWebJS**
-
-# Examples
-
-**AWebJSDOM Class Usage**
-```js
-function HelloWorld(text)
-{
-AwebJS.AwebJSDOM.render('p',`${text}`)
-}
-HelloWorld('Hello world!');
+```bash
+$ npm i awebjs
 ```
 
 **Using AWebJS in Buttons** 
 
 ```js
-function HelloWorld()
+const HelloWorld = () =>
 {
     AwebJS.AwebJSDOM.renderElement('h1','Hello World','hwdom')
 }

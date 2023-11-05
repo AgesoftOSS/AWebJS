@@ -1,4 +1,4 @@
-import CSSLoader from "./cssloader.js";
+const { CSSLoader } = require("./cssloader")
 
 /**
  * ```Jsx
@@ -35,11 +35,13 @@ function RenderRoundButton(){
  * Returns the Component with the Component Name
  * @param {Component} component 
  */
-export function getComponent(component){
+function getComponent(component){
     return document.getElementsByTagName(component)[0];
 }
 
-export default function CreateComponents(){
+function CreateComponents(){
     RenderHeader();
     RenderRoundButton();
 }
+
+module.exports = { renderHeader, renderRoundButton, getComponent, CreateComponents, CSSLoader};

@@ -7,11 +7,10 @@ Some components are provided by Entertainmasters.
 All Rights Reserved.
 */
 
-import { RenderElement } from "./comps/renderElement.js"
-import Render from "./comps/render.js"
-import { Visibility } from "./comps/visibility.js"
+const { Render, RenderElement } = require("./comps/render.js")
+const { Visibility } = require("./comps/visibility.js")
 
-export default class AWebJSDOM {
+class AWebJSDOM {
     constructor(){}
     /**
      * 
@@ -37,3 +36,5 @@ export default class AWebJSDOM {
      */
     visibility(elem) { Visibility(elem) }
 }
+
+module.exports = AWebJSDOM;
